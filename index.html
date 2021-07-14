@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Border-Radius-Previewer</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="content">
+            <form id="formCopy" action="">
+                <input type="text" id="copyInput" value="border-radius: 0 0 0 0">
+                <button id="copyBTN" onclick="copyReturn()">Copy</button>
+            </form>
+            <div class="radius">
+
+            </div>
+            <form id="form-Radius" action="">
+                <p>border-top-left <input type="number" placeholder="px" id="bTopL"></p>
+                <p>border-top-right <input type="number" placeholder="px" id="bTopR"></p>
+                <p>border-bottom-right <input type="number" placeholder="px" id="bBottomR"></p>
+                <p>border-bottom-left <input type="number" placeholder="px" id="bBottomL"></p>
+                <button type="submit" onclick="applyRadius()">Apply</button>
+            </form>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

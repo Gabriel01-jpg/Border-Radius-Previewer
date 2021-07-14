@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    width: 45%;
+}
+
+#formCopy {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#formCopy input{
+    width: 350px;
+    border: none;
+    background-color: #918d8d;
+    color: white;
+}
+
+#formCopy button{
+   margin-left: 10px;
+   padding: 2px 10px;
+   cursor: pointer;
+}
+
+
+.radius {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+#form-Radius {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+#form-Radius p {
+    width: 100%;
+}
+
+#form-Radius input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+#form-Radius button {
+    align-self: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1c2d5c;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#form-Radius button:hover {
+    background-color: #2f4585;
+    color: #000;
+}
